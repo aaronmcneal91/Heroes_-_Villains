@@ -21,4 +21,5 @@ import supers
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/supers/', include('supers.urls')),
+    
 ]
