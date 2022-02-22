@@ -67,7 +67,7 @@ def supers_detail(request, pk):
 #             return Response(supers)
 #         else:
 #             supers = Supers.objects.all()
-#         return Response(serializers, statu=status.HTTP_200_OK)
+#             return Response(serializers, statu=status.HTTP_200_OK)
     
 
 
